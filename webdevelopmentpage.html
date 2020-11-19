@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: pink;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: lightpink;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #CFA3E9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: pink;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}	
+	
+body {background-color: white;}
+
+	
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* image layout */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+h2 {text-align: center;}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+</head>
+<body>
+<img src="name.jpeg" alt="namelogo" width="120" height="80">
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Profolio 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="webdevelopmentpage.html">Web Development</a>
+      <a href="design.html">Design</a>
+    </div>
+  </div> 
+	<a href="contactme.html">Contact me</a>
+</div> 
+
+<br>
+
+<h2>Web Development</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="wd1.JPG" alt="e-commerce website" style="width:100%">
+      <div class="container">
+        <h2>E-commerce Website</h2>
+        <p class="title">Done by Lindsay</p>
+        <p>Using Wordpress to design this website.</p>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="wd2.JPG" alt="website" style="width:100%">
+      <div class="container">
+        <h2>Website</h2>
+        <p class="title">Done by Lindsay</p>
+        <p>Created using wordpress.</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+
+</body>
+</html>
