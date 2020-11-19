@@ -5,6 +5,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>ID ASG 1</title>
 <style>
+
+h2 {text-align: center;}
+
+/* Navigation Bar */
 .navbar {
   overflow: hidden;
   background-color: pink;
@@ -65,27 +69,229 @@
   display: block;
 }	
 
+/* Slideshow */
+
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: pink;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: pink;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/2 etc) */
+.numbertext {
+  color: pink;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 </style>
 </head>
 
 <body>
-
+<img src="name.jpeg" alt="namelogo" width="120" height="80">
 <div class="navbar">
-  <a href="#home">Home</a>
+  <a href="index.html">Home</a>
   <div class="dropdown">
-    <button class="dropbtn">Profolio 
+    <button class="dropbtn">Portfolio 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Web Development</a>
-      <a href="#">Design</a>
+      <a href="webdevelopmentpage.html">Web Development</a>
+      <a href="design.html">Design</a>
     </div>
   </div> 
 	<a href="contactme.html">Contact me</a>
 </div>
 
-<p>Testing</p>
-<p>Testing</p>
+<h2>Lindsay's Portfolio</h2>
+
+<div class="row">
+  <div class="column" style="background-color:plum;">
+    <h2>It's me!</h2>
+    <img src="me.jpeg" style="width: 400px;">
+  </div>
+  <div class="column" style="background-color:rgb(235, 179, 225);">
+    <h2>About me!</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Hello, I'm Lindsay!</h1>
+    <h3>Student of Immersive Media at Ngee Ann Polytechnic</h3>
+    <p>I’m someone who is interested in designing & developing, it does not matter 
+      whether it is about Graphic Design, Web Design or Developing. As long as it allowed me to share my way of design 
+      , I will be so delighted. I'm also interested to learn and find out more stuff about designing and developing as 
+      it has always been my passion to work in this field.</p>
+  </div>
+</div>
+
+<h2>Slideshow Portfolio</h2>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 2</div>
+    <img src="img1.jpeg" style="width: 500px;">
+    <div class="text">DP Assignment</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 2</div>
+    <img src="img2.jpeg" style="width:500px">
+    <div class="text">Magazine Cover Design</div>
+  </div>
+  
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+   
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
 	
 	
 	
