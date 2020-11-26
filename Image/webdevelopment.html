@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>ID ASG 1</title>
+<style>
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+h2 {text-align: center;}
+
+
+
+</style>
+</head>
+<body>
+<img src="Image/name.jpeg" alt="namelogo" width="120" height="80">
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Profolio 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="webdevelopmentpage.html">Web Development</a>
+      <a href="design.html">Design</a>
+    </div>
+  </div> 
+	<a href="contactme.html">Contact me</a>
+</div> 
+
+<br>
+
+<h2>Web Development</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Image/wd1.JPG" alt="e-commerce website" style="width:100%">
+      <div class="container">
+        <h2>E-commerce Website</h2>
+        <p class="title">Done by Lindsay</p>
+        <p>Using Wordpress to design this website.</p>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Image/wd2.JPG" alt="website" style="width:100%">
+      <div class="container">
+        <h2>Website</h2>
+        <p class="title">Done by Lindsay</p>
+        <p>Created using wordpress.</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+
+</body>
+</html>
