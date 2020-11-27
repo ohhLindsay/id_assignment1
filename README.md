@@ -2,7 +2,7 @@
 
 # interactivedev-readme-template
 Readme template for interactive development module
-# Your Project's Name
+# Lindsay's Portfolio
 
 One or two paragraphs providing an overview of your project. Tell us about your project.
 
