@@ -10,11 +10,15 @@ This website that i've created is mainly to target company that is hiring where 
 
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As an audience to view this website to see the work done by the creater, i would need to use the navigation bar to navigate me to the portfolio page so that i can view the work there.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+
+Wireframe:
+
+- Index Page: https://xd.adobe.com/view/92fc93ca-dc38-4309-b876-5ae636a6ef95-c7af/ 
+- Design Page: https://xd.adobe.com/view/02ad5b61-e59b-44aa-896e-7ed159df11ee-57fe/
+- Web Development Page: https://xd.adobe.com/view/f863b671-c922-4766-9388-e1fbc39faf76-ad30/ 
+- Contactme Page: https://xd.adobe.com/view/1b2505c6-bbcc-403b-8326-883fd15c0778-4e76/ 
 
 ## Features
 
@@ -51,28 +55,19 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+The testing process is working fine, just that when i included the "required" on my contact form, it only shows up on the html file but it doesn't show up on the gifthub on google chrome but firefox shows up the required notice. As for the "success message appears notice" it also doesn't show on gifthub on all the browser and only shown on the html file.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The different sizing and browser works fine on all the devices and browsers.
 
 ## Credits
+- W3school
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- NIL
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were own by me.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from looking through w3school website to see what i can apply to my website.
