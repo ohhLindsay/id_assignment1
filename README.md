@@ -24,7 +24,7 @@ Wireframe:
 
 At the index page which is the homepage, i splited it into two column so that i can add my picture at one
 side and the other side is for me to briefly introduce myself. As for below, i created a manual slideshow where i included some of the work i've done. 
-On the Navigation bar, there is a portfolio dropdown that shows Design and Web Development. I splited my profolio into two html file, one is for design and the other is about web development so i can split it up and include my work in the different page. Lastly, i also created a contact me page, where the audience can contact me if they have any enquiry.
+On the Navigation bar, there is a portfolio dropdown that shows Design and Web Development. I splited my portfolio into two html file, one is for design and the other is about web development so i can split it up and include my work in the different page. Lastly, i also created a contact me page, where the audience can contact me if they have any enquiry.
 
 ### Existing Features
 - Feature 1 - The manual slideshow that is shown in the index page (homepage) allowed user to briefly look through the work i've done.
