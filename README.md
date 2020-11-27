@@ -10,7 +10,7 @@ This website that i've created is mainly to target company that is hiring where 
 
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As an audience to view this website to see the work done by the creater, i would need to use the navigation bar to navigate me to the portfolio page so that i can view the work there.
+- As an audience to view this website to see the work done by the creator, i would need to use the navigation bar to navigate me to the portfolio page so that i can view the work there.
 
 
 Wireframe:
