@@ -41,16 +41,16 @@ In addition, you may also use this section to discuss plans for additional featu
 
 
 - [W3school](https://www.w3schools.com/css/css_navbar.asp)
-    - The project uses **W3school** to created a navigation bar for user to easily navigate to the desire page they want.
+    - The project uses **W3school** to create a navigation bar for user to easily navigate to the desire page they want.
 
 - [W3school](https://www.w3schools.com/howto/howto_js_slideshow.asp)
-    - The project uses **W3school** to created a manual slideshow to briefly showcasing my work at the homepage.
+    - The project uses **W3school** to create a manual slideshow to briefly showcasing my work at the homepage.
 
 - [W3school](https://www.w3schools.com/howto/howto_css_contact_form.asp)
-    - The project uses **W3school** to created a contact form on the contactme page.
+    - The project uses **W3school** to create a contact form on the contactme page.
 
 - [W3school](https://www.w3schools.com/howto/howto_css_team.asp)
-    - The project uses **W3school** to created a image layout and a short description section to display my work and a short brief.
+    - The project uses **W3school** to create a image layout and a short description section to display my work and a short brief.
 
 
 ## Testing
