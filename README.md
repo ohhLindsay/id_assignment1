@@ -1,16 +1,13 @@
 # id_assignment1
 
-# interactivedev-readme-template
-Readme template for interactive development module
 # Lindsay's Portfolio
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+This is a website that i've created to showcase my work that i've done so far. 
 
 ## Design Process
 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website that i've created is mainly to target company that is hiring where i can showcase my work to them and through the website they will be able to contact me. For my design process, i first started planning a wireframe on how i wanted to layout my website (for example, where i wanted to place the text or images as well as the alignment). Since this is about a portfolio website, i created a navigation bar where it will be easier for them (audience) to navigate the site easily. As for the contact page, it will be easier for them to contact me for any enquiry without the need for them go through long process etc logging in their email to contact me.
+
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -21,23 +18,35 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+At the index page which is the homepage, i splited it into two column so that i can add my picture at one
+side and the other side is for me to briefly introduce myself. As for below, i created a manual slideshow where i included some of the work i've done. 
+On the Navigation bar, there is a portfolio dropdown that shows Design and Web Development. I splited my profolio into two html file, one is for design and the other is about web development so i can split it up and include my work in the different page. Lastly, i also created a contact me page, where the audience can contact me if they have any enquiry.
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 1 - The manual slideshow that is shown in the index page (homepage) allowed user to briefly look through the work i've done.
+- Feature 2 - The navigation bar, allowed the user to easily navigate to the desire page that they want.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- I would like to create a more interactive website in the furture  to interact more with the audience. This is one of my favourite interactive website : https://simplychocolate.dk/
 
 ### Features Left to Implement
-- Another feature idea
+- Other than having a more interactive website, i also would like to include feature like an audio slideshow or a simple fast game feature.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+
+- [W3school](https://www.w3schools.com/css/css_navbar.asp)
+    - The project uses **W3school** to created a navigation bar for user to easily navigate to the desire page they want.
+
+- [W3school](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+    - The project uses **W3school** to created a manual slideshow to briefly showcasing my work at the homepage.
+
+- [W3school](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+    - The project uses **W3school** to created a contact form on the contactme page.
+
+- [W3school](https://www.w3schools.com/howto/howto_css_team.asp)
+    - The project uses **W3school** to created a image layout and a short description section to display my work and a short brief.
 
 
 ## Testing
